@@ -46,6 +46,11 @@ public class tarea4 {
     public void setNumero3(int numero3) {
         this.numero3 = numero3;
     }
+
+    @Override
+    public String toString() {
+        return "tarea4{" + "numero1=" + numero1 + ", numero2=" + numero2 + ", numero3=" + numero3 + '}';
+    }
     
     
 }
